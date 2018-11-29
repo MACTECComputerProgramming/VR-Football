@@ -38,7 +38,7 @@ public class AgentScript : MonoBehaviour {
             second = true;
 
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.S))
             agent.SetDestination(targetPositionTwo);
 
 
@@ -61,4 +61,9 @@ public class AgentScript : MonoBehaviour {
         agent.SetDestination(targetPositionTwo);
         
     }
+
+
+
+
+
 }
