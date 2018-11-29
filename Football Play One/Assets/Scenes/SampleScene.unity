@@ -155,11 +155,11 @@ Prefab:
     - target: {fileID: 3380982, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1075927832}
+      objectReference: {fileID: 1306745538}
     - target: {fileID: 2348914, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 792078976}
+      objectReference: {fileID: 2004926126}
     - target: {fileID: 420908, guid: 4d293c8e162f3874b982baadd71153d2, type: 2}
       propertyPath: m_LocalScale.x
       value: 50
@@ -283,6 +283,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 82e1800467a55504c94001f0ac79fc8d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d84373a74b983094295292ad2d93dbb7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82e1800467a55504c94001f0ac79fc8d, type: 3}
   m_IsPrefabAsset: 0
@@ -962,42 +966,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 82e1800467a55504c94001f0ac79fc8d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a02491a5f80911b409335ec3e2384d3c, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82e1800467a55504c94001f0ac79fc8d, type: 3}
   m_IsPrefabAsset: 0
---- !u!21 &792078976
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &919677925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400138, guid: 82e1800467a55504c94001f0ac79fc8d,
@@ -1088,7 +1063,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1070146451}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!43 &1075927832
+--- !u!4 &1104053532 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400138, guid: 82e1800467a55504c94001f0ac79fc8d,
+    type: 3}
+  m_PrefabInternal: {fileID: 606832781}
+--- !u!4 &1279930294 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400138, guid: 82e1800467a55504c94001f0ac79fc8d,
+    type: 3}
+  m_PrefabInternal: {fileID: 1617505646}
+--- !u!43 &1306745538
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1243,16 +1228,6 @@ Mesh:
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
   m_MeshOptimized: 0
---- !u!4 &1104053532 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400138, guid: 82e1800467a55504c94001f0ac79fc8d,
-    type: 3}
-  m_PrefabInternal: {fileID: 606832781}
---- !u!4 &1279930294 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400138, guid: 82e1800467a55504c94001f0ac79fc8d,
-    type: 3}
-  m_PrefabInternal: {fileID: 1617505646}
 --- !u!1 &1377542173
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,9 +2153,46 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 82e1800467a55504c94001f0ac79fc8d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cdf65dfd2fca0b44989188ea28be2ad8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82e1800467a55504c94001f0ac79fc8d, type: 3}
   m_IsPrefabAsset: 0
+--- !u!21 &2004926126
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &2006605831
 Prefab:
   m_ObjectHideFlags: 0
@@ -2240,6 +2252,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 82e1800467a55504c94001f0ac79fc8d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ee6c68b98545c0a428b5a8845c911aaa, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82e1800467a55504c94001f0ac79fc8d, type: 3}
   m_IsPrefabAsset: 0
