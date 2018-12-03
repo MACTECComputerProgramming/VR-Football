@@ -1,0 +1,2 @@
+G:\Android Version\Football Play One\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+G:\Android Version\Football Play One\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
