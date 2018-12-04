@@ -9,7 +9,7 @@ public class CameraGazeScript : MonoBehaviour {
 
     public GameObject MOVE;
 
-   /* void Start() {
+    void Start() {
         GetComponent<Renderer>().material = notLookingMaterial;
     }
 
@@ -20,8 +20,8 @@ public class CameraGazeScript : MonoBehaviour {
     public void notLooking(){
         GetComponent<Renderer>().material = notLookingMaterial;
     }
-    */
-    public void QBPOV()
+    
+    /*public void QBPOV()
     {
         //set Camera&*emulator to QBPOV (0.-5.-2)
         MOVE.transform.position = transform.TransformPoint(0, -5, -2);
@@ -36,5 +36,5 @@ public class CameraGazeScript : MonoBehaviour {
        
     }
 
-
+    */
 }
