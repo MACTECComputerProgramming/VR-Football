@@ -5,13 +5,13 @@ using UnityEngine;
 public class MenuMoveme : MonoBehaviour {
 
 
-public GameObject menuCam;
+    public GameObject MOVE;
 	// Use this for initialization
 	void Start ()
     {
         
         //set camera&emulator above field to menu position (0.70.18)
-        menuCam.transform.position = transform.TransformPoint(0, 70, 18);
+        MOVE.transform.position = transform.TransformPoint(0, 70, 18);
 
         //set gazer distance to menu reqs(20?)
 		
@@ -21,7 +21,7 @@ public GameObject menuCam;
 	void QBPOV ()
     {
         //set Camera&*emulator to QBPOV (0.-5.-2)
-        transform.TransformPoint(0, -5, -2);
+        MOVE.transform.position = transform.TransformPoint(0, -5, -2);
         //set gazer distance to QB reqs(120)
 
 

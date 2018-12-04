@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Football Play One
+  companyName: Mactech
+  productName: VRFootball
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -132,10 +132,10 @@ PlayerSettings:
       enableTransitionView: 0
     daydream:
       depthFormat: 0
-      useSustainedPerformanceMode: 0
-      enableVideoLayer: 0
+      useSustainedPerformanceMode: 1
+      enableVideoLayer: 1
       useProtectedVideoMemory: 0
-      minimumSupportedHeadTracking: 0
+      minimumSupportedHeadTracking: 1
       maximumSupportedHeadTracking: 1
     hololens:
       depthFormat: 1
@@ -152,7 +152,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: testone
+    Android: com.Mactech.VRFootball
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
@@ -388,8 +388,8 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
-    - daydream
     - cardboard
+    - daydream
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
