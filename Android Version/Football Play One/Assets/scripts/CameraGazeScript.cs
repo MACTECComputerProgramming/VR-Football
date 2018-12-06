@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraGazeScript : MonoBehaviour {
 
+    
     public Material lookingMaterial;
     public Material notLookingMaterial;
 
@@ -21,6 +22,7 @@ public class CameraGazeScript : MonoBehaviour {
         GetComponent<Renderer>().material = notLookingMaterial;
     }
     
+
     /*public void QBPOV()
     {
         //set Camera&*emulator to QBPOV (0.-5.-2)

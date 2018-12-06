@@ -23,16 +23,19 @@ public class AgentScript : MonoBehaviour {
     {
         sw.Start();
         agent = GetComponent<NavMeshAgent>();
+
+        agent.SetDestination(targetPositionOne);
+
 	}
 
     // Update is called once per frame
 	void Update ()
     {
 
-        if (Input.GetKey(KeyCode.Space))
-        {
-            agent.SetDestination(targetPositionOne);
-        }
+       
+        
+           
+        
 
         if (agent.transform.position == targetPositionOne)
             second = true;
