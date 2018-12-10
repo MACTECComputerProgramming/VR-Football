@@ -55,7 +55,6 @@ a44114bd4fa541174f78b4bb92bacb48 UnityEngine.UI.dll:UnityEngine.EventSystems.Sta
 e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-81c77b181918558b135c5115034a3789 Assembly-CSharp.dll:.MenuMoveme
 12e22429ddcbd11541f75bffb3ef6fd6 Assembly-CSharp.dll:GoogleVR.PermissionsDemo.PermissionsFlowManager
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 a705082b61b457d9b9de2cba7983a733 Assembly-CSharp.dll:GoogleVR.VideoDemo.AppButtonInput

@@ -166,7 +166,6 @@
      <Compile Include="Assets\scripts\CameraGazeScript.cs" />
      <Compile Include="Assets\scripts\GyroRotate.cs" />
      <Compile Include="Assets\scripts\MenuActivator.cs" />
-     <Compile Include="Assets\scripts\MenuMoveme.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
