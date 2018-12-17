@@ -4,10 +4,6 @@
 -langversion:4
 -out:Temp/Assembly-CSharp.dll
 -nostdlib
--r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
--r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
--r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -70,12 +66,17 @@
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll
 -r:Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll
 -r:C:/Users/CS180/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
 -r:C:/Users/CS180/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
@@ -186,6 +187,124 @@
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
 Assets/AgentScript.cs
+Assets/Controller/GvrControllerVisualEditor.cs
+Assets/Controller/GvrLaserPointerEditor.cs
+Assets/Controller/GvrLaserVisualEditor.cs
+Assets/Controller/GvrTooltipEditor.cs
+Assets/GoogleVR/Beta/Demos/Hello6DoFControllers/Scripts/DemoObjectController6DoF.cs
+Assets/GoogleVR/Beta/Scripts/GvrBeta.cs
+Assets/GoogleVR/Beta/Scripts/GvrBetaControllerVisualMulti.cs
+Assets/GoogleVR/Demos/Scripts/DemoInputManager.cs
+Assets/GoogleVR/Demos/Scripts/DemoSceneManager.cs
+Assets/GoogleVR/Demos/Scripts/HelloVR/HeadsetDemoManager.cs
+Assets/GoogleVR/Demos/Scripts/HelloVR/HelloVRManager.cs
+Assets/GoogleVR/Demos/Scripts/HelloVR/ObjectController.cs
+Assets/GoogleVR/Demos/Scripts/KeyboardDemo/KeyboardDelegateExample.cs
+Assets/GoogleVR/Demos/Scripts/PermissionsDemo/PermissionsFlowManager.cs
+Assets/GoogleVR/Demos/Scripts/VideoDemo/AppButtonInput.cs
+Assets/GoogleVR/Demos/Scripts/VideoDemo/AutoPlayVideo.cs
+Assets/GoogleVR/Demos/Scripts/VideoDemo/InputEvents.cs
+Assets/GoogleVR/Demos/Scripts/VideoDemo/MenuHandler.cs
+Assets/GoogleVR/Demos/Scripts/VideoDemo/PositionSwapper.cs
+Assets/GoogleVR/Demos/Scripts/VideoDemo/ScrubberEvents.cs
+Assets/GoogleVR/Demos/Scripts/VideoDemo/SwitchVideos.cs
+Assets/GoogleVR/Demos/Scripts/VideoDemo/ToggleAction.cs
+Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoControlsManager.cs
+Assets/GoogleVR/Demos/Scripts/VideoDemo/VideoPlayerReference.cs
+Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudio.cs
+Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioListener.cs
+Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioRoom.cs
+Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSoundfield.cs
+Assets/GoogleVR/Legacy/Scripts/Audio/GvrAudioSource.cs
+Assets/GoogleVR/Scripts/Cardboard/GvrReticlePointer.cs
+Assets/GoogleVR/Scripts/Controller/ArmModel/GvrArmModel.cs
+Assets/GoogleVR/Scripts/Controller/ArmModel/GvrBaseArmModel.cs
+Assets/GoogleVR/Scripts/Controller/ArmModel/IGvrArmModelReceiver.cs
+Assets/GoogleVR/Scripts/Controller/GvrControllerInput.cs
+Assets/GoogleVR/Scripts/Controller/GvrControllerInputDevice.cs
+Assets/GoogleVR/Scripts/Controller/GvrControllerReticleVisual.cs
+Assets/GoogleVR/Scripts/Controller/GvrControllerVisual.cs
+Assets/GoogleVR/Scripts/Controller/GvrLaserPointer.cs
+Assets/GoogleVR/Scripts/Controller/GvrLaserVisual.cs
+Assets/GoogleVR/Scripts/Controller/GvrRecenterOnlyController.cs
+Assets/GoogleVR/Scripts/Controller/GvrTrackedController.cs
+Assets/GoogleVR/Scripts/Controller/IGvrControllerInputDeviceReceiver.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviderFactory.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/AndroidNativeShimControllerProvider.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/DummyControllerProvider.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EditorControllerProvider.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/EmulatorControllerProvider.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerProviders/MouseControllerProvider.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerState.cs
+Assets/GoogleVR/Scripts/Controller/Internal/ControllerUtils.cs
+Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorClientSocket.cs
+Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorConfig.cs
+Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorDataTypes.cs
+Assets/GoogleVR/Scripts/Controller/Internal/Emulator/EmulatorManager.cs
+Assets/GoogleVR/Scripts/Controller/Internal/Emulator/PhoneEvent.cs
+Assets/GoogleVR/Scripts/Controller/Internal/IControllerProvider.cs
+Assets/GoogleVR/Scripts/Controller/Tooltips/GvrControllerTooltipsSimple.cs
+Assets/GoogleVR/Scripts/Controller/Tooltips/GvrTooltip.cs
+Assets/GoogleVR/Scripts/EventSystem/GvrBasePointer.cs
+Assets/GoogleVR/Scripts/EventSystem/GvrBasePointerRaycaster.cs
+Assets/GoogleVR/Scripts/EventSystem/GvrEventInterfacesExtension.cs
+Assets/GoogleVR/Scripts/EventSystem/GvrExecuteEventsExtension.cs
+Assets/GoogleVR/Scripts/EventSystem/GvrPointerEventData.cs
+Assets/GoogleVR/Scripts/EventSystem/GvrPointerGraphicRaycaster.cs
+Assets/GoogleVR/Scripts/EventSystem/GvrPointerPhysicsRaycaster.cs
+Assets/GoogleVR/Scripts/EventSystem/GvrPointerScrollInput.cs
+Assets/GoogleVR/Scripts/EventSystem/GvrScrollSettings.cs
+Assets/GoogleVR/Scripts/EventSystem/GvrXREventsSubscriber.cs
+Assets/GoogleVR/Scripts/EventSystem/IGvrScrollSettings.cs
+Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrAllEventsTrigger.cs
+Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrEventExecutor.cs
+Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModule.cs
+Assets/GoogleVR/Scripts/EventSystem/InputModule/GvrPointerInputModuleImpl.cs
+Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrEventExecutor.cs
+Assets/GoogleVR/Scripts/EventSystem/InputModule/IGvrInputModuleController.cs
+Assets/GoogleVR/Scripts/GvrCardboardHelpers.cs
+Assets/GoogleVR/Scripts/GvrEditorEmulator.cs
+Assets/GoogleVR/Scripts/GvrSettings.cs
+Assets/GoogleVR/Scripts/GvrUnitySdkVersion.cs
+Assets/GoogleVR/Scripts/Headset/GvrHeadset.cs
+Assets/GoogleVR/Scripts/Headset/GvrHeadsetEnums.cs
+Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviderFactory.cs
+Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetEnums.cs
+Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/AndroidNativeHeadsetProvider.cs
+Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/DummyHeadsetProvider.cs
+Assets/GoogleVR/Scripts/Headset/Internal/HeadsetProviders/EditorHeadsetProvider.cs
+Assets/GoogleVR/Scripts/Headset/Internal/HeadsetState.cs
+Assets/GoogleVR/Scripts/Headset/Internal/IHeadsetProvider.cs
+Assets/GoogleVR/Scripts/InstantPreview/InstantPreview.cs
+Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewControllerProvider.cs
+Assets/GoogleVR/Scripts/InstantPreview/InstantPreviewHelper.cs
+Assets/GoogleVR/Scripts/Keyboard/GvrKeyboard.cs
+Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardDelegateBase.cs
+Assets/GoogleVR/Scripts/Keyboard/GvrKeyboardIntent.cs
+Assets/GoogleVR/Scripts/Keyboard/Internal/IKeyboardProvider.cs
+Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviderFactory.cs
+Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/AndroidNativeKeyboardProvider.cs
+Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/DummyKeyboardProvider.cs
+Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardProviders/EmulatorKeyboardProvider.cs
+Assets/GoogleVR/Scripts/Keyboard/Internal/KeyboardState.cs
+Assets/GoogleVR/Scripts/Permissions/GvrPermissionsRequester.cs
+Assets/GoogleVR/Scripts/Pose3D.cs
+Assets/GoogleVR/Scripts/PropertyDrawers/GvrInfoDrawer.cs
+Assets/GoogleVR/Scripts/UI/GvrDropdown.cs
+Assets/GoogleVR/Scripts/Utilities/GvrActivityHelper.cs
+Assets/GoogleVR/Scripts/Utilities/GvrCursorHelper.cs
+Assets/GoogleVR/Scripts/Utilities/GvrDaydreamApi.cs
+Assets/GoogleVR/Scripts/Utilities/GvrIntent.cs
+Assets/GoogleVR/Scripts/Utilities/GvrMathHelpers.cs
+Assets/GoogleVR/Scripts/Utilities/GvrUIHelpers.cs
+Assets/GoogleVR/Scripts/Utilities/GvrVRHelpers.cs
+Assets/GoogleVR/Scripts/Utilities/SuppressMemoryAllocationErrorAttribute.cs
+Assets/GoogleVR/Scripts/Video/GvrVideoPlayerTexture.cs
+Assets/scripts/AgentScript.cs
+Assets/scripts/CameraGazeScript.cs
+Assets/scripts/GyroRotate.cs
+Assets/scripts/MenuActivator.cs
+Assets/scripts/WaypointRead.cs
 Assets/SteamVR/Extras/SteamVR_GazeTracker.cs
 Assets/SteamVR/Extras/SteamVR_TestThrow.cs
 Assets/SteamVR/Extras/SteamVR_TestTrackedCamera.cs
@@ -341,4 +460,13 @@ Assets/SteamVR/Scripts/SteamVR_SphericalProjection.cs
 Assets/SteamVR/Scripts/SteamVR_TrackedCamera.cs
 Assets/SteamVR/Scripts/SteamVR_TrackedObject.cs
 Assets/SteamVR/Scripts/SteamVR_Utils.cs
+Assets/SteamVR_Input/ActionObjects/SteamVR_Input_ActionSet_buggy.cs
+Assets/SteamVR_Input/ActionObjects/SteamVR_Input_ActionSet_buggy_In.cs
+Assets/SteamVR_Input/ActionObjects/SteamVR_Input_ActionSet_default.cs
+Assets/SteamVR_Input/ActionObjects/SteamVR_Input_ActionSet_default_In.cs
+Assets/SteamVR_Input/ActionObjects/SteamVR_Input_ActionSet_default_Out.cs
+Assets/SteamVR_Input/ActionObjects/SteamVR_Input_ActionSet_platformer.cs
+Assets/SteamVR_Input/ActionObjects/SteamVR_Input_ActionSet_platformer_In.cs
+Assets/SteamVR_Input/SteamVR_Input_Actions.cs
+Assets/SteamVR_Input/SteamVR_Input_ActionSets.cs
 -lib:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity"

@@ -3,27 +3,26 @@ using UnityEngine;
 
 public class Waypoints : MonoBehaviour {
 
-    public GameObject player;
+    
     public GameObject[] waypoints;
 
+    
     public int num = 0;
 
+    //set to 0.5 or 1 
     public float minDist;
     public float speed;
 
     public bool rand = false;
-    public bool go;
+    public bool go = false;
 
 
-    /*public Vector3 waypointUno;
-    private Vector3 waypointDos ;
-    private Vector3 waypointTres ;
-    private Vector3 waypointQautro ;
-	*/
+    
     
     void Start () 
     {
-        
+    
+       
 
 	}
 	
