@@ -9,6 +9,8 @@ public class Waypoints : MonoBehaviour {
     
     public int num = 0;
 
+    public bool correct;
+
     //set to 0.5 or 1 
     public float minDist;
     public float speed;
