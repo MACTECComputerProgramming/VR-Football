@@ -10,9 +10,6 @@ public class Waypoints : MonoBehaviour {
     
     public int num = 0;
 
-    public bool correct;
-    public Text text;
-
     //set to 0.5 or 1 
     public float minDist;
     public float speed;
@@ -72,21 +69,7 @@ public class Waypoints : MonoBehaviour {
 
     }
 
-    //looking scripts for the object
-
-    public void pointerEnter() {
-        if (correct == true)
-        {
-            text.text = "Correct";
-        }
-        else {
-            text.text = "Sorry";
-        }
-    }
-
-    public void pointerExit() {
-
-    }
+   
 
 
 
