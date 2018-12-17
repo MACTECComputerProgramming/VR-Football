@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Waypoints : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class Waypoints : MonoBehaviour {
     public int num = 0;
 
     public bool correct;
+    public Text text;
 
     //set to 0.5 or 1 
     public float minDist;
@@ -23,7 +25,7 @@ public class Waypoints : MonoBehaviour {
     
     void Start () 
     {
-    
+
        
 
 	}
@@ -67,6 +69,22 @@ public class Waypoints : MonoBehaviour {
     {
         gameObject.transform.LookAt(waypoints[num].transform.position);
         gameObject.transform.position += gameObject.transform.forward * speed * Time.deltaTime;
+
+    }
+
+    //looking scripts for the object
+
+    public void pointerEnter() {
+        if (correct == true)
+        {
+            text.text = "Correct";
+        }
+        else {
+            text.text = "Sorry";
+        }
+    }
+
+    public void pointerExit() {
 
     }
 
