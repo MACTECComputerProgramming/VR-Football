@@ -336,8 +336,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  IMG: {fileID: 0}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 0}
+  UI_Correct: {fileID: 0}
+  UI_Incorrect: {fileID: 0}
 --- !u!136 &190976666
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1600,8 +1601,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  IMG: {fileID: 0}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 1519507080}
+  UI_Correct: {fileID: 21300000, guid: ae553602014c3fd4da2cf90f2c1b25d2, type: 3}
+  UI_Incorrect: {fileID: 21300000, guid: 2b86aa59d0b074548bba16f59e2f36dd, type: 3}
 --- !u!1 &883781334 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100138, guid: 0d778e28b818f094693a4cc0c0ead3f5,
@@ -1707,8 +1709,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  IMG: {fileID: 0}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 1519507080}
+  UI_Correct: {fileID: 21300000, guid: ae553602014c3fd4da2cf90f2c1b25d2, type: 3}
+  UI_Incorrect: {fileID: 21300000, guid: 2b86aa59d0b074548bba16f59e2f36dd, type: 3}
 --- !u!1 &890922393 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100138, guid: 0d778e28b818f094693a4cc0c0ead3f5,
@@ -1743,8 +1746,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  IMG: {fileID: 0}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 1519507080}
+  UI_Correct: {fileID: 21300000, guid: ae553602014c3fd4da2cf90f2c1b25d2, type: 3}
+  UI_Incorrect: {fileID: 21300000, guid: 2b86aa59d0b074548bba16f59e2f36dd, type: 3}
 --- !u!114 &890922397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1984,8 +1988,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  IMG: {fileID: 0}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 1519507080}
+  UI_Correct: {fileID: 21300000, guid: ae553602014c3fd4da2cf90f2c1b25d2, type: 3}
+  UI_Incorrect: {fileID: 21300000, guid: 2b86aa59d0b074548bba16f59e2f36dd, type: 3}
 --- !u!136 &946961447
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2477,8 +2482,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  IMG: {fileID: 0}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 1519507080}
+  UI_Correct: {fileID: 21300000, guid: ae553602014c3fd4da2cf90f2c1b25d2, type: 3}
+  UI_Incorrect: {fileID: 21300000, guid: 2b86aa59d0b074548bba16f59e2f36dd, type: 3}
 --- !u!4 &1071843808 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400138, guid: 0d778e28b818f094693a4cc0c0ead3f5,
@@ -3632,8 +3638,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 1
-  IMG: {fileID: 1519507080}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 1519507080}
+  UI_Correct: {fileID: 21300000, guid: ae553602014c3fd4da2cf90f2c1b25d2, type: 3}
+  UI_Incorrect: {fileID: 21300000, guid: 2b86aa59d0b074548bba16f59e2f36dd, type: 3}
 --- !u!136 &1427286211
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4082,8 +4089,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  IMG: {fileID: 0}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 1519507080}
+  UI_Correct: {fileID: 21300000, guid: ae553602014c3fd4da2cf90f2c1b25d2, type: 3}
+  UI_Incorrect: {fileID: 21300000, guid: 2b86aa59d0b074548bba16f59e2f36dd, type: 3}
 --- !u!1 &1599185879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100138, guid: 0d778e28b818f094693a4cc0c0ead3f5,
@@ -4131,8 +4139,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  IMG: {fileID: 0}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 1519507080}
+  UI_Correct: {fileID: 21300000, guid: ae553602014c3fd4da2cf90f2c1b25d2, type: 3}
+  UI_Incorrect: {fileID: 21300000, guid: 2b86aa59d0b074548bba16f59e2f36dd, type: 3}
 --- !u!114 &1599185884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5282,8 +5291,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  IMG: {fileID: 0}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 1519507080}
+  UI_Correct: {fileID: 21300000, guid: ae553602014c3fd4da2cf90f2c1b25d2, type: 3}
+  UI_Incorrect: {fileID: 21300000, guid: 2b86aa59d0b074548bba16f59e2f36dd, type: 3}
 --- !u!1 &2140695630 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100138, guid: 0d778e28b818f094693a4cc0c0ead3f5,
@@ -5382,8 +5392,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correct: 0
-  IMG: {fileID: 0}
-  IMG_Incorrect: {fileID: 0}
+  image: {fileID: 1519507080}
+  UI_Correct: {fileID: 21300000, guid: ae553602014c3fd4da2cf90f2c1b25d2, type: 3}
+  UI_Incorrect: {fileID: 21300000, guid: 2b86aa59d0b074548bba16f59e2f36dd, type: 3}
 --- !u!136 &2140695635
 CapsuleCollider:
   m_ObjectHideFlags: 0

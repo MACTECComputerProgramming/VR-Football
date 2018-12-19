@@ -8,12 +8,13 @@ public class ManagerScript : MonoBehaviour {
 
     public bool correct;
 
-	public Image IMG;
-	public Image IMG_Incorrect;
+	public Image image;
+	public Sprite UI_Correct;
+	public Sprite UI_Incorrect;
 
 	// Use this for initialization
 	void Start () {
-		
+		image.GetComponent<Image> ().sprite = UI_Incorrect;
 	}
 	
 	// Update is called once per frame
@@ -25,9 +26,9 @@ public class ManagerScript : MonoBehaviour {
 
     public void  pointerEnter() {
 		if (correct == false) {
-			
+			image.sprite = UI_Incorrect;
 		} else {
-
+			image.sprite = UI_Correct;
 		}
     }
 }
