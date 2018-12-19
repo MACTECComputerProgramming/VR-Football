@@ -8,7 +8,8 @@ public class ManagerScript : MonoBehaviour {
 
     public bool correct;
 
-    public Text text;
+	public Image IMG;
+	public Image IMG_Incorrect;
 
 	// Use this for initialization
 	void Start () {
@@ -23,12 +24,10 @@ public class ManagerScript : MonoBehaviour {
     //activates when looking at the player
 
     public void  pointerEnter() {
-        if (correct == true)
-        {
-            text.text = "Correct";
-        }
-        else {
-            text.text = "Sorry";
-        }
+		if (correct == false) {
+			
+		} else {
+
+		}
     }
 }
